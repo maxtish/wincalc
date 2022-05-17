@@ -1,0 +1,44 @@
+#calc {padding-top:30px;margin-left:5px;margin-right:5px;}
+#calc td {vertical-align:top;}
+.item-block {width:90%;margin-bottom:15px;}
+.item-title {padding-bottom:10px;font-weight:bold;}
+.item-select {width:100%;background:url('/images/calc/transparent.png');padding:5px;}
+#win-corner, #win-glass-pattern {text-align:center;vertical-align:top;}
+
+p#subs {font-size:10pt;text-align:center;width:80%;margin-left:10%;}
+#win-sizes {font-size:11pt;margin:0;padding:0;width:400px;position:relative;left:50%;margin-left:-210px;}
+#win-sizes td {border:1px solid silver;vertical-align:top;}
+#win-example {height:372px;width:375px;text-align:center;}
+#height-block {width:40px;padding-left:5px;padding-right:5px;vertical-align:bottom;}
+#winheight {margin-left:12px;margin-top:12px;height:290px;}
+#winwidth {float:left;width:84%;margin-top:6px;margin-left:6px;}
+#vvalue {margin-top:15px;margin-bottom:15px;}
+#hvalue {float:right;}
+#vvalue, #hvalue {width:30px;padding:5px;font-weight:bold;color:#f6931f;text-align:center;background:white;}
+
+#wtypes {padding-left:.5em;}
+#wtypes img {border:0;}
+#wtypes .wtype-block {position:relative;float:left;}
+#wtypes .wsubtype div, #wtypes .wtype {margin:5px 2px;padding:5px;cursor:pointer;}
+#wtypes .wsubtype {position:absolute;left:0;top:0;background:white;display:none;}
+
+#price-sum {font-size:48pt;color:#ed1849;}
+#price-block, #services {margin-bottom:5px;}
+#services {height:50px;font-size:14pt;}
+#services .service {float:left;width:90px;margin-right:10px;}
+#credit-block {width:155px;padding:10px;background:#ffd600;}
+#credit-sum {font-size:28pt;color:#333;text-decoration:none;background:url('/images/calc/gray_dotted.gif') repeat-x bottom;}
+
+#stats {font-size:10pt;padding:10px 5px 10px 5px;margin-bottom:20px;background:url('/images/calc/transparent.png');}
+#stats .stat {overflow:hidden;height:16px;margin-bottom:5px;color:white;background:url('/images/calc/stats/bg.gif');}
+#stats #win-type {font-weight:bold;margin-bottom:5px;}
+#stats .rounder {float:left;height:16px;overflow:hidden;}
+#stats .rounder.left {width:10px;margin-left:-5px;}
+#stats .rounder.right {width:5px;}
+#stats #heat, #stats #silence, #stats #design {width:50px;float:left;}
+#stats .heat {background:url('/images/calc/stats/warmth_rounds.png');}
+#stats .silence {background:url('/images/calc/stats/loud_rounds.png');}
+#stats .design {background:url('/images/calc/stats/design_rounds.png');}
+
+.overed {background:silver;}
+.clicked {background:#bd9;}
